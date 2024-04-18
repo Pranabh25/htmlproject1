@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    height: 50vh;
+    width: 40%;
+    background-color: rgb(16, 118, 227);
+    z-index: -1;
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+.bottom{
+    height: 50vh;
+    width: 40%;
+    background-color: rgb(218, 70, 25);
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    left: 0;    
+}
+.middle{
+    height: 90vh;
+    width: 95%;
+    background-color:white;
+    position: absolute;
+    z-index: 1;
+    margin: 2.5%;
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    height: 90vh;
+    width: 50%;    
+    background-image: url(nnnn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form{
+    height: 90vh;
+    width: 50%;    
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+.form h1{
+    margin: 20px;
+    border-bottom: 5px solid blueviolet;
+}
+.name{
+    border: 2px solid black;
+    width: 200px;
+    height: 25px;
+    margin: 5px;
+    border-radius:20px;
+}
+.password{
+    border: 2px solid black;
+    width: 200px;
+    height: 25px;
+    margin: 5px;
+    border-radius:20px;
+}
+.sign{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: blueviolet;
+    border-radius:20px;
+}
+.form h4{
+    margin-top: 80px;
+}
+.logo{
+    height: 40px;
+    width: 200px;
+    margin: 5px;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+#logo1{
+    height: 100%;
+    width: 30%;
+    margin: 5px;
+    background-image: url(logo-ig-png-32457.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#logo2{
+    height: 100%;
+    width: 30%;
+    margin: 5px;
+    background-image: url(facebook\ .svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#logo3{
+    height: 100%;
+    width: 30%;
+    margin: 5px;
+    background-image: url(whatsapp.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
